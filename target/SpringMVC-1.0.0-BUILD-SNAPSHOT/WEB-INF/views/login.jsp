@@ -24,9 +24,8 @@
 		<fieldset class="boxBody">
 
 			<span style="float: right"> 
-				<a href="?lang=en">en</a> 
-				<a href="?lang=ru">ru</a>
-				<a href="?lang=UA">uk</a>
+				<a href="?lang=en">en</a>
+				<a href="?lang=uk">uk</a>
 			</span>
 
 
@@ -45,12 +44,12 @@
 
 		</fieldset>
 
-		<footer> <form:checkbox path="admin" /> <form:label
+		<footer>
+		<form:checkbox path="admin" /> <form:label
 			path="admin">
 			<spring:message code="admin" />
-		</form:label> <input type="submit" class="btnLogin"
-			value="<spring:message code="login"/>"> </footer>
-
+		</form:label> <input type="submit" class="btnLogin" value="<spring:message code="login"/>">
+		</footer>
 
 	</form:form>
 
